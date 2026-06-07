@@ -1,0 +1,26 @@
+# Virtual environment
+venv/
+.venv/
+ENV/
+env/
+
+# Python caching & byte-code
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE configurations
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Project-specific artifacts and generated data
+data/behavioral_profiles.csv
+models/*.pkl
+results/*.csv
+results/*.json
+results/*.png
